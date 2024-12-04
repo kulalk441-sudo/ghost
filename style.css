@@ -1,0 +1,38 @@
+body,h1,h2,p{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+    line-height: 1.7;
+}
+
+header{
+    padding: 3rem;
+    color: white;
+    background-color: #444;
+    text-align: center;
+}
+.profile{
+    padding: 2 rem;
+    color: #444;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+}
+.photo img{
+    border-radius: 50%;
+    max-width: 30%;
+    height: auto;
+    flex: 2;
+
+}
+.bio{
+    flex: 1;
+}
+footer{
+    padding: 2rem;
+    color: white;
+    background-color: #444;
+    text-align: center;
+}
